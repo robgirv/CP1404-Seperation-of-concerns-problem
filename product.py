@@ -2,6 +2,7 @@
 
 
 class Product:
+    """Product class for storing details of a product."""
     def __init__(self, name, price):
         """Construct a product object."""
         self.name = name
